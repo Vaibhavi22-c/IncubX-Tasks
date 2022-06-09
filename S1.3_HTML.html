@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            BasicLayout
+        </title>
+        <style>
+            .header{
+                background-color:rgb(183, 103, 5);  
+            }
+            .outer_mid_sec{
+                display: flex;
+                height:80vh;
+                justify-content: space-between;
+            }
+            .left_mid_sec{
+                width: 20%;
+                border:2px solid yellow;
+            }
+            .right_mid_sec{
+                text-align: center;
+                margin: auto;
+                width: 80%;
+            }
+            .footer{
+                border: 2px solid yellow;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <img src="logo.png" alt="logo">
+        </div>
+        <div class="outer_mid_sec">
+            <div class="left_mid_sec" style="display:inline-block;">
+                <ul>
+                    <li style="list-style-type:none"><a href="#">Home</a></li>
+                    <li style="list-style-type:none"><a href="#">Contact Us</a></li>
+                    <li style="list-style-type:none"><a href="#">About Us</a></li>
+                </ul>
+            </div>
+            <div class="right_mid_sec" style="display:inline-block">
+                <form>
+                    <h2>Employee Registration Form</h2>
+                    <label for="fname">First Name:</label>
+                    <input type="text" id="fname" name="fname" placeholder="John"><br>
+                    <label for="lname">Last Name:</label>
+                    <input type="text" id="lname" name="lname" placeholder="Doe"><br><br>
+                    <label for="username">Username:</label>
+                    <input type="text" id="username" name="username"><br>
+                    <label for="pwd">Password:</label>
+                    <input type="password" id="pwd" name="pwd">
+                </form>
+            </div>
+        </div>
+        <div class="footer" style="background-color:rgb(183, 103, 5);">
+            <p>&copy;IncubXperts Technoconsulting pvt ltd</p>
+            <a href="#">Privacy Statement | <span><a href="#">Terms of Use</a></span></a>
+        </div>
+    </body>
+</html>
