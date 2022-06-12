@@ -1,0 +1,101 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+#bgimg{
+    height:70vh; 
+    width: 100%;
+}
+.centered{
+    display: flex;
+    position: absolute;
+    top: 10%;
+    color: white;
+    left: 20vw;
+}
+.text{
+    width: 40vw;
+    margin-bottom:10vh;
+}
+.form{
+    width: 22vw;
+    height: 50vh;
+    color: black;
+    background-color:rgba(237, 229, 229, 0.673);
+    text-align: center;
+    border: 2px solid black;
+    border-radius: 8px;
+    margin-bottom: 15px;
+}
+#btn{
+    background-color:rgb(157, 157, 183);
+    height: 3em;
+    color: black;
+    font-weight: bolder;
+}
+h2{
+    margin-top: 35px;
+}
+.icons{
+    height: 30vh;
+    width: 100%;
+    display: flex;
+}
+#img1{
+    height: 10vh;
+    width: 5vw;
+    margin-left:5vw;
+    margin-top: 14px;
+}
+#img2{
+    height: 9vh;
+    margin-left: 9vw;
+    margin-top: 17px;
+}
+#img3{
+    height: 11vh;
+    margin-top: 9px;
+    margin-left: 5vw;
+}
+.icon1{
+    margin-left: 8%;
+    margin-top: 3%;  
+}
+.icon3{
+    margin-left: 12%;
+    margin-top: 3%;
+}
+.icon2{
+    margin-left: 12%;
+    margin-top: 3%; 
+}
+h1{
+    margin-right: 20vw;
+}
+#lp{
+    font-size: 3em;
+    color: white;
+}
+#name,#email{
+    border:2px solid black;
+    height: 2em;
+}
+#fl{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:rgb(76, 72, 72);
+}
+#ntxt,#etxt{
+    font-weight: bolder;
+    font-size: large;
+}
+#p1,#p2,#p3{
+    font-size: medium;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: grey;
+}
+#p2{
+    margin-top:25px;
+}
+#p1{
+    margin-top:20px;
+}

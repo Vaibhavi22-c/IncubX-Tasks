@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>BankName</title>
+        <!--Radio button design: https://www.w3schools.com/howto/tryit.asp?filename=tryhow_css_custom_radio-->
+        <link rel="stylesheet" href="S4.2_Layout_ScrollableFormCSS.css"> 
+    </head>
+    <body>
+        <header id="outerHeader">
+            <header id="innerHeader">
+                <img src="Banklogo.webp" id="bankimg">
+                <a class="headopts">Accounts</a>
+                <a class="headopts">Clients</a>
+                <a class="headopts">Documents</a>
+                <a class="headopts">Reports</a>
+                <select id="selectacc" class="headopts"><option value="">Accounting</option></select>
+                <select id="selectdef" class="headopts"><option value="">Definitions</option></select>
+                <img src="plus.png" id="plus">
+                <img src="qmark.jpg" id="qmark">
+                <select id="selectuser"><option>RK</option></select>
+            </header>
+            <p id="clientlink"><a href="">Clients</a> / Add new Client</p>
+            <h3>Add new Client - vbng</h3>
+        </header>
+        <div class="content">
+            <div class="sidebar">
+                <p class="labels">Contact</p>
+                <ul>
+                    <li><input type="radio">Client Information</li>
+                    <li><input type="radio">Main point of Contact</li>
+                </ul>
+                <p class="labels">Settings</p>
+                <ul>
+                    <li><input type="radio"> Accounting Configuration</li>
+                    <li><input type="radio">Bank Accounts</li>
+                    <li><input type="radio">Costs and Fess</li>
+                    <li><input type="radio">Invoices</li>
+                    <li><input type="radio">PIF Options</li>
+                    <li><input type="radio">Filing & Judgement Automation</li>
+                </ul>
+            </div>
+            <div class="right_content">
+                <h2>Client Information</h2>
+                <div class="inputs">
+                    <label for="choice">Indicate if a client is business or individual</label><br>
+                    <input type="radio" id="Business">
+                    <label for="Business">Business</label>
+                    <input type="radio" id="individual">
+                    <label for="individual">Individual</label>
+                    <p class="clientname">Enter client's name.</p>
+                    <div class="cname">
+                        <div>
+                            <p class="inputlabel">Client Name<span class="spanred"> *</span></p>
+                            <input type="text" class="txtbox" placeholder="vbng">
+                        </div>
+                        <div id="doing">
+                            <p class="inputlabel">Doing Business as</p>
+                            <input type="text" class="txtbox" placeholder="Enter DBA or fictitious name">
+                        </div>
+                    </div>
+                    <p class="clientname">Create a client ID. Enter their FEIN and select client type.</p>
+                    <div class="cid">
+                        <div>
+                            <p class="inputlabel">Client ID (Limit of 10 characters)<span class="spanred"> *</span></p>
+                            <input type="text" class="txtboxcid" placeholder="Enter Client ID">
+                        </div>
+                        <div id="fein">
+                            <p class="inputlabel">FEIN</p>
+                            <input type="text" class="txtboxcid" placeholder="FEIN">
+                        </div>
+                        <div id="cltype">
+                            <p class="inputlabel">Client Type<span class="spanred"> *</span></p>
+                            <select class="ctype">
+                                <option value="Select Type">Select Type</option>
+                            </select>
+                        </div>
+                    </div>
+                    <p class="clientname">Assign to 1 or more sets. Use set to groups like clients together & pull reports for all clients in that set. (Optional)</p>
+                    <div class="cname">
+                        <div>
+                            <p class="inputlabel">Client Set Code</p>
+                            <select id="ccode">
+                                <option>Select Client set code.</option>
+                            </select>
+                        </div>
+                        <div id="doing">
+                            <button id="mng">Manage Codes</button>
+                        </div>
+                    </div>
+                    <p class="clientname">Enter Address(Optional). More addressses can be saved as additional contacts.</p>
+                    <div class="c_add">
+                            <p class="inputlabel">Attention</p>
+                            <input type="text" class="fulltxtbox" placeholder="Enter addressee">
+                            <p class="inputlabel">Street Address</p>
+                            <input type="text" class="fulltxtbox" placeholder="Enter street address">
+                            <p class="inputlabel">Street Address</p>
+                            <input type="text" class="fulltxtbox" placeholder="Enter apartment, suite, unit, floor, building, etc.">
+                    </div>
+                    <div class="cname">
+                        <div>
+                            <p class="inputlabel">Zip Code/Postal Code</p>
+                            <input type="text" class="txtbox" placeholder="00000">
+                        </div>
+                        <div id="doing">
+                            <p class="inputlabel">City</p>
+                            <input type="text" class="txtbox" placeholder="Enter City">
+                        </div>
+                    </div>
+                    <div class="cname">
+                        <div>
+                            <p class="inputlabel">State/Province</p>
+                            <input type="text" class="txtbox" placeholder="Enter State/Province">
+                        </div>
+                        <div id="doing">
+                            <p class="inputlabel">Country</p>
+                            <select id="country">
+                                <option>Select Country</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="cname">
+                        <div>
+                            <p class="inputlabel">Country Code</p>
+                            <select id="ccode">
+                                <option>Select Country code.</option>
+                            </select>
+                        </div>
+                        <div id="doing">
+                            <button id="mng">Manage Codes</button>
+                        </div>
+                    </div>
+                    <div class="c_add">
+                        <p class="inputlabel">Time Zone</p>
+                        <select class="fulltxtbox">
+                            <option>Select Time Zone</option>
+                        </select>
+                    </div>
+                    <p class="clientname">Enter Website Link(Optional).</p>
+                    <div class="c_add">
+                            <p class="inputlabel">Website Link</p>
+                            <input type="text" placeholder="Enter URL" class="fulltxtbox">
+                    </div>
+                    <p class="clientname">Choose a pre-set color (Optional).</p>
+                    <div class="c_add">
+                        <p class="inputlabel">Assigning colors to your clients can help to visually group them together or quickly distinguish them from one another.</p>
+                        <p>Pre-set colors.</p>
+                        <div class="colorbtns">
+                            <button id="blue"></button>
+                            <button id="lightblue"></button>
+                            <button id="green"></button>
+                            <button id="orange"></button>
+                            <button id="yellow"></button>
+                            <button id="red"></button>
+                            <button id="pink"></button>
+                            <button id="purple"></button>
+                            <button id="lavender"></button>
+                            <button id="black"></button>
+                            <button id="grey"></button>    
+                        </div>
+                    </div>
+                    <p class="clientname">Enter Notes(Optional).</p>
+                    <div class="c_add">
+                            <p class="inputlabel">Notes</p>
+                            <input type="textfield" placeholder="Enter any comments or notes" class="fulltxtbox">
+                    </div>
+                    <p class="clientname">Enter additional information by creating your own fields for client accounts (Optional).</p>
+                    <div class="c_add">
+                        <p class="inputlabel">Custom User Field</p>
+                        <input type="textfield" class="fulltxtbox">
+                </div>
+                        
+
+                </div>
+                <div class="clrpg">
+                    <a href="">Clear Page</a> 
+                    <button id="nxt">Next</button>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
