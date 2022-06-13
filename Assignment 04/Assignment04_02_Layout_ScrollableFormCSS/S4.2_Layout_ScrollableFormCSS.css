@@ -1,0 +1,249 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#bankimg{
+    width: 45px;
+    height: 45px;
+    padding: 3px;
+    border-radius: 50%;
+    margin-top: 2px;
+}
+#outerHeader{
+    height: auto;
+    width: 100%;
+    padding: 5px;
+}
+#innerHeader{
+    width: 80%;
+    height: auto;
+    background-color: navy;
+    color: white;
+    margin-left: 10%;
+    padding: 5px;
+}
+#selectdef,#selectacc,#selectuser{
+    background-color: navy;
+    border: none;
+    color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight:700;
+}
+#plus,#qmark{
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    margin-top: 2%;
+}
+#plus{
+    margin-left: 30%;
+}
+
+#selectuser{
+    height: 35px;
+    background-color: rgb(54, 152, 232);
+    border-radius: 50%;
+    float: right;
+    margin-top: 2%;
+}
+#clientlink,h3{
+    margin-left: 15%;
+}
+h3,h2{
+    color:navy;
+}
+h2{
+    font-weight: bolder;
+}
+ul{
+    list-style: none;
+}
+.sidebar{
+    border-right: 5px solid lightgray;
+    height: auto;
+    width:23vw;
+    padding: 1rem;
+}
+.labels{
+    margin-left: 10%;
+    color: navy;
+    font-weight: bold;
+}
+.content{
+    display: flex; 
+    border-top: 5px solid lightgray ;
+}
+.right_content{
+    height: 70vh;
+    width: 75vw;
+    padding: 10px;
+    overflow: auto;
+}
+.cname{
+    display: flex;
+}
+#doing{
+    margin-left: 12%;
+}
+.txtbox{
+    height:2em;
+    width: 25rem;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+.inputs{
+    margin: 5%;
+    padding:1%;
+}
+.spanred{
+    color: red;
+}
+.clientname{
+    margin-top: 8%;
+}
+.cid{
+    display: flex;
+}
+.ctype,.txtboxcid{
+    height:2em;
+    width: 15rem;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+.ctype{
+    height: 2rem;
+}
+#cltype,#fein{
+    margin-left: 7%;
+}
+#nxt{
+    margin-left: 1rem;
+    padding: 1%;
+    border: none;
+    border-radius: 5px;
+    background-color:rgb(55, 235, 55);
+    font-weight: bold;
+}
+#mng{
+    margin-top: 41%;
+    height: 2rem;
+    width: 8rem;
+    border-radius: 5px;
+}
+#ccode{
+    height: 2rem;
+    width: 45rem;
+    border-radius: 5px;
+}
+.fulltxtbox{
+    height: 2rem;
+    width: 60rem;
+    border-radius: 5px;
+}
+.c_add{
+    display: flex;
+    flex-direction: column;
+}
+#country{
+    height:2rem;
+    width: 25rem;
+    border-radius: 10px;
+    margin-left: 1%;
+}
+.colorbtns{
+    height: 2rem;
+    width: auto;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    display: flex;
+}
+#blue{
+    background-color: blue;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+}
+#lightblue {
+    background-color: lightblue;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+}
+#green{
+    background-color: green;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+} 
+#orange
+{
+    background-color: orangered;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+} 
+#yellow{
+    background-color: yellow;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+}
+#red{
+    background-color: red;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+}
+#pink{
+    background-color:pink;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+} 
+#purple{
+    background-color: purple;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+}
+#lavender{
+    background-color:rgb(232, 179, 250);
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+} 
+#black{
+    background-color: black;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+}
+#grey{
+    background-color:grey;
+    border: none;
+    margin-left: 1%;
+    border-radius: 5px;
+    width:2rem;
+}
+.txtbox,.txtboxcid,.fulltxtbox,.ctype,#ccode,#mng,#country{
+    background-color:rgb(242, 244, 247);
+    border: 2px solid lightgray;
+}
+.txtbox,.txtboxcid,.fulltxtbox{
+    font-weight: 700;
+}
+.headopts{
+    margin-left: 2%;
+}

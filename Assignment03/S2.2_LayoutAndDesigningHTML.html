@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Notisphere</title>
+        <link rel="stylesheet" href="S2.2_LayoutAndDesigningCSS.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <header id="mainHeader">
+            <img src="NotiLogo.png" id="logoimg">
+            <img src="menubar.png" id="bar">
+            <img src="hospitalEquip.webp" id="equip">
+            <b>provider & admin</b>
+            <select id = "myList" onchange = "favTutorial()" >
+                <option> <b>Choose Provider/admin </b></option>
+                <option> Ameya </option>
+                <option> Puja </option>
+                <option> Rahul </option>
+                <option> Satish </option>
+            </select>
+        </header>
+        <div class="content">
+            <div class="sidebar">
+                <h2><u>Dashboard</u></h2>
+                <ul style="list-style-type: none;" id="menus">
+                    <li>
+                        <img src="smile.webp" class="smile">  Tests
+                    </li><br>
+                    <li>
+                        <img src="smile.webp" class="smile">  Reports
+                    </li><br>
+                    <li>
+                        <img src="smile.webp" class="smile">  Doctors
+                    </li>
+                </ul>
+            </div>
+            <div class="right_content">
+                <header id="rheader">
+                    <div>  
+                        <br>  
+                        <h3>Dashboard</p>        
+                        <h4>Home</h4>
+                        <span id="btns">
+                            <button class="btn">In progress</button>
+                            <button class="btn">Completed</button>
+                            <button class="btn">All</button>
+                        </span>
+                    </div>
+                    <div class="overlapimg">
+                        <img src="flasks.webp" id="flaskimg">
+                        <img src="hospitalEquip.webp" id="heqipimg">
+                        <img src="bloodSample.jpg" id="bloodSampleimg">
+                    </div>      
+                </header>
+                <div>
+                    <div class="dropdowns">
+                        <select id="Type" name="Type">
+                            <option value="Type">Type</option>
+                        </select>
+                        <select id="Type" name="Classification">
+                            <option value="Classification">Classification</option>
+                        </select>
+                        <select id="Type" name="Progress">
+                            <option value="Progress">Progress</option>
+                        </select>
+                        <select id="Type" name="Days since Notified">
+                            <option value="Days since Notified">Days since Notified</option>
+                        </select>
+                        <select id="Type" name="Category">
+                            <option value="Category">Category</option>
+                        </select>
+                        <select id="Type" name="Status">
+                            <option value="Status">Status</option>
+                        </select>
+                        <select id="Type" name="Medium Of Recall">
+                            <option value="Medium Of Recall">Medium Of Recall</option>
+                        </select>
+                        <button id="clr">Clear all Filters</button>
+                        <select id="SORTBY" name="SORT BY">
+                            <option value="SORT BY">SORT BY</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="cards">
+                    <div class="card1">
+                        <div class="cardh">
+                            <div>
+                                <img src="msgicon.png" id="msg">
+                            </div>
+                            <div>
+                                <button class="ack">Acknowledged</button>
+                                <button class="urg">Urgent</button>
+                            </div>
+                        </div>
+                        <div class="cardcnt">
+                            <p class="dt">08-06-2022</p>
+                            <h3 class="SUP">SUP_TEST</h3>
+                            <p class="blue">qa12345</p>
+                            <p class="plow"><span class="span">Recall Id</span><small class="small">ASPBUTSGD01</small></p>
+                        </div>
+                        <div class="progress">
+                            <div class="proimg">
+                                <img src="progress.png">
+                                <p>Progress</p>
+                            </div>
+                            <div class="dayimg">
+                                <img src="day.png">
+                                <p>Notified</p>
+                            </div>
+                        </div>
+                        <div class="sites">
+                            <ul>
+                                <li>Sites - 1</li>
+                                <li>Category - <span>Blood Products</span></li>
+                            </ul>
+                        </div>
+                        <div class="rc">
+                            <div class="cls">
+                                <img src="delete.png" id="del"><br>
+                                <p class="remove">Not classified</p>
+                            </div>
+                            <div class="cnl">
+                                <img src="cancel.png" id="cancel"><br>
+                                <p class="remove">Removed</p>
+                            </div>
+                        </div>
+                        <div class="vbtn">
+                            <button class="view">View</button>
+                        </div>
+                    </div>
+                    <div class="card2">
+                        <div class="cardh">
+                            <div>
+                                <img src="msgicon.png" id="msg">
+                            </div>
+                            <div>
+                                <button class="ack">Acknowledged</button>
+                                <button class="urg">Urgent</button>
+                            </div>
+                        </div>
+                        <div class="cardcnt">
+                            <p class="dt">08-06-2022</p>
+                            <h3 class="SUP">SUP_TEST</h3>
+                            <p class="blue">qa12345</p>
+                            <p class="plow"><span class="span">Recall Id</span><small class="small">ASPBUTSGD01</small></p>
+                        </div>
+                        <div class="progress">
+                            <div class="proimg">
+                                <img src="progress.png">
+                                <p>Progress</p>
+                            </div>
+                            <div class="dayimg">
+                                <img src="day.png">
+                                <p>Notified</p>
+                            </div>
+                        </div>
+                        <div class="sites">
+                            <ul>
+                                <li>Sites - 1</li>
+                                <li>Category - <span>Blood Products</span></li>
+                            </ul>
+                        </div>
+                        <div class="rc">
+                            <div class="cls">
+                                <img src="delete.png" id="del"><br>
+                                <p class="remove">Not classified</p>
+                            </div>
+                            <div class="cnl">
+                                <img src="cancel.png" id="cancel"><br>
+                                <p class="remove">Removed</p>
+                            </div>
+                        </div>
+                        <div class="vbtn">
+                            <button class="view">View</button>
+                        </div>
+                    </div>
+                    <div class="card3">
+                        <div class="cardh">
+                            <div>
+                                <img src="msgicon.png" id="msg">
+                            </div>
+                            <div>
+                                <button class="ack">Acknowledged</button>
+                                <button class="urg">Urgent</button>
+                            </div>
+                        </div>
+                        <div class="cardcnt">
+                            <p class="dt">08-06-2022</p>
+                            <h3 class="SUP">SUP_TEST</h3>
+                            <p class="blue">qa12345</p>
+                            <p class="plow"><span class="span">Recall Id</span><small class="small">ASPBUTSGD01</small></p>
+                        </div>
+                        <div class="progress">
+                            <div class="proimg">
+                                <img src="progress.png">
+                                <p>Progress</p>
+                            </div>
+                            <div class="dayimg">
+                                <img src="day.png">
+                                <p>Notified</p>
+                            </div>
+                        </div>
+                        <div class="sites">
+                            <ul>
+                                <li>Sites - 1</li>
+                                <li>Category - <span>Blood Products</span></li>
+                            </ul>
+                        </div>
+                        <div class="rc">
+                            <div class="cls">
+                                <img src="delete.png" id="del"><br>
+                                <p class="remove">Not classified</p>
+                            </div>
+                            <div class="cnl">
+                                <img src="cancel.png" id="cancel"><br>
+                                <p class="remove">Removed</p>
+                            </div>
+                        </div>
+                        <div class="vbtn">
+                            <button class="view">View</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
