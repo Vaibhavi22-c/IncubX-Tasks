@@ -1,0 +1,268 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+#mainHeader{
+    background-image: linear-gradient(to right,rgb(59, 59, 224) , purple);
+    height: auto;
+    width: 100%;
+    display: flex;
+}
+#logoimg{
+    height:3em;
+    width: 10vw;
+    margin-top: 1vh;
+    margin-left: 1vw;
+}
+#bar{
+    height: 3vh;
+    margin-left: 1vw;
+    margin-top: 3vh;
+}
+#equip{
+    height: 6vh;
+    margin-left: 58vw;
+    padding: 5px;
+    
+}
+#myList{
+    height: 2em;
+    margin-top: 2em;
+    margin-left: 2px;
+    margin-right:2px;
+}
+b{
+    margin-left: 1vw;
+    margin-top: 2em;
+}
+.smile{
+    height: 1em;
+    width: 1em;
+}
+.sidebar{
+    background-color:white;
+    height: auto;
+    width: 300px;
+    box-shadow: 5px 5px 12px grey;
+}
+h2{
+    text-align: center;
+    padding-top: 1em;
+}
+#menus{
+    padding-top: 1em;
+}
+#rheader{
+    background-color:white;
+    height: auto;
+    border-bottom: 2px solid black;
+    justify-content: space-between;
+    display: flex;
+    margin-left: 8px;
+}
+.content{
+    display: flex;
+}
+.right_content{
+    width:calc(100% - 300px);
+    height:auto;
+}
+h3{
+    margin-left: 3%; 
+    margin-top: 0px; 
+    font-size: larger;
+}
+h4{
+    margin-left: 3%;
+}
+#bloodSampleimg{
+    height: 50px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: -25px;
+    margin-right: 20px;
+}
+#heqipimg{
+    height: 50px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+    margin-left: -25px;
+}
+#flaskimg{
+    height: 50px;
+    width: 55px;
+    border: 1px solid black;
+    border-radius: 50%;
+}
+.overlapimg{
+    margin-top: 15px;
+}
+.btn{
+    background-color: rgb(62, 126, 235);
+    border:none;
+    color:black;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 5px;
+    margin-right: 15px;
+}
+#btns{
+    margin-left: 20px;
+}
+#Type{
+    border: 2px solid rgb(62, 126, 235);
+    border-radius: 8px;
+    color: rgb(62, 126, 235);
+    font-weight: bold;
+}
+.dropdowns{
+    margin-top: 10px;
+    margin-left: 5px;
+    padding: 3px;
+}
+#clr{
+    border: none;
+    color: rgb(62, 126, 235);
+    font-weight: bold;
+    margin-left: 10px;
+}
+#SORTBY{
+    border: 3px solid rgb(62, 126, 235);
+    border-radius: 2px;
+    color: rgb(62, 126, 235);
+    font-weight: bold;
+    margin-left: 15vw;
+
+}
+.card1,.card2,.card3{
+    border: 2px solid grey;
+    border-radius: 10px;
+    box-shadow: 5px 5px 13px grey;
+    height: 500px;
+    width:300px;
+}
+#msg{
+    height: 24px;
+    width: auto;
+}
+.cardh{
+    display: flex;
+    background-color: lightgray;
+    padding: 10px;
+    justify-content: space-around;
+    align-items: center;
+}
+.ack{
+    background-color: rgb(16, 134, 16);
+    color: white;
+    border:2px solid rgb(16, 134, 16) ;
+    border-radius: 5px;
+
+}
+.urg{
+    background-color: rgb(165, 5, 5);
+    color:white;
+    border:2px solid rgb(165, 5, 5);
+    border-radius: 5px;
+}
+small{
+    color: rgb(91, 88, 88);
+}
+#blue{
+    color:rgb(38, 117, 252) ;
+    font-weight: bolder;
+}
+.cardcnt{
+    margin: 20px;
+    margin-left: 40px;
+}
+.dt,.SUP,.blue,.plow{
+    margin: -5px;
+    padding: 3px;
+}
+.small{
+    margin-left: 7px;
+}
+.span{
+    font-weight: bolder;
+    margin: -5px;
+    padding: 2px;
+    padding-left: 7px;
+
+}
+.blue{
+    color:rgb(52, 171, 250) ;
+    font-weight: bold;
+}
+.dt{
+    font-size: small;
+}
+.progress{
+    display: flex;
+    padding: 10px;
+    font-size: small;
+    font-weight: bold;
+}
+.proimg{
+    border: 2px solid grey;
+    border-radius: 20px;
+    margin-left: 50px;
+    padding:10px;
+}
+.dayimg{
+    border:2px solid grey;
+    border-radius: 20px;
+    margin-left: 20px;
+    padding: 13px;
+}
+.sites{
+    background-color: lightgray;
+    height:auto;
+    font-size: small;
+    font-weight: 800;
+    padding:1px;
+}
+#del{
+    height: 25px;
+    width: 25px;
+    margin-left: 20px;
+}
+#cancel{
+    height: 25px;
+    width: 25px;
+    margin-left: 10px;
+}
+.remove{
+    font-size:x-small;
+    font-weight: 900;
+}
+.rc{
+    display: flex;
+    justify-content:space-around;
+    padding: 3px;
+    margin-top: 5px;
+}
+.vbtn{
+    width: auto;
+    height: auto;
+}
+.view{
+    border:1px rgb(62, 126, 235);
+    border-radius: 5px;
+    height: auto;
+    padding: 2px;
+    width: 90px;
+    font-weight: 900;
+    background-color: rgb(62, 126, 235);
+    margin-left: 100px;
+    margin-top:2px;
+}
+.cards
+{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin-top: 40px;
+}

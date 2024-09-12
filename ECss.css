@@ -1,0 +1,36 @@
+.static
+{
+    background-color: blue;
+    position:static;
+}
+.fixed{
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+}
+.sticky{
+    background-color: pink;
+    position: sticky;
+}
+.parent{
+    height: 250px;
+    width:250px;
+    margin: auto;
+    background-color:red;
+}
+.child{
+    height: 100px;
+    width: 100px;
+    background-color:blue;
+}
+.parent{
+    position: relative;
+
+}
+.child{
+    left: 100px;
+    position: absolute;
+}
+.p{
+    padding: 20px;
+}
